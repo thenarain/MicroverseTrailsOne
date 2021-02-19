@@ -3,13 +3,53 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Product Landing Page</title>
 </head>
 
 <body>
-    <h1>Hello World, we are software developers!</h1>
+    <header id="header" class="nav">
+        <img src="https://paden.sabhuku.com/public/assets/images/real_eastate_app.png" class="logo" id="header-img">
+        <nav id="nav-bar">
+            <a href="#video" class="nav-link">Products</a>
+            <a href="#pricing" class="nav-link">Pricing</a>
+            <a href="#email" class="nav-link">Contact US</a>
+        </nav>
+    </header>
+
+    <section class="video-section">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/H2uEIRNM7TE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section class="email">
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <input type="email" placeholder="enter your email" id="email" name="email" class="email-txt">
+            <input type="submit" id="submit">
+        </form>
+    </section>
+
+    <section id="pricing" class="price-section">
+        <div class="pricing">
+            <h3>US$400</h3>
+            <button>Buy Now</button>
+        </div>
+    </section>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
 </html>
+
+
+
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
