@@ -1,0 +1,58 @@
+@media screen and (max-width: 600px) {
+    body {
+        backround-color: olive;
+    }
+}
+
+.nav {
+    display: flex;
+    padding-top: 10px;
+    position: fixed;
+    height: 60px;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.logo {
+    height: 50px;
+}
+
+.nav-link {
+    margin: 10px;
+    padding-top: 4px;
+}
+
+.video-section {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.email-txt {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.price-section {
+    display: flex;
+    justify-content: center;
+}
+
+.pricing {
+    padding: 10px;
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    color: white;
+}
